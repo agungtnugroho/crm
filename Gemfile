@@ -11,6 +11,7 @@ end
 
 group :development, :test do
 gem 'sqlite3'
+gem 'webrick', '~> 1.3.1'
 end
 
 group :assets do
